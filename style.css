@@ -304,6 +304,63 @@ header {
   border-radius: 3px;
 }
 
+/* why us */
+
+.why-us {
+  background-color: #f0f2f6b3;
+  padding: 60px 0px;
+}
+
+.why-us-container {
+  width: 90%;
+  margin: auto;
+}
+
+.why-us-box {
+  margin-top: 30px;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-box {
+  width: 30%;
+  background-color: var(--white);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3px #dedbdb;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.content-box:hover {
+  box-shadow: 0px 0px 7px #c1c1c1;
+}
+
+.content-image img {
+  width: 40px;
+}
+
+.content-about {
+  width: 80%;
+  color: #db3026;
+}
+
+.content-about h5 {
+  font-size: 1rem;
+  color: #0a1016;
+}
+
+.why-us-form {
+  width: 30%;
+}
+
 /* our product */
 
 .our-product {
