@@ -189,6 +189,10 @@ header {
   height: 2px;
 }
 
+/* =================== home page ==================== */
+
+/* our service */
+
 .our-service-container {
   margin-top: 30px;
   display: flex;
@@ -590,4 +594,130 @@ footer {
 
 .copyright-text span:hover {
   color: #e7412a;
+}
+
+/* ========== contact us =================== */
+
+.contact-us-heading {
+  color: white;
+  background-color: #c41e12cc;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+  margin: 60px auto;
+  padding: 10px 0px;
+}
+
+.comtact-us-heading h2 {
+  font-size: 2.6rem;
+}
+
+.contact-us-heading p {
+  font-size: larger;
+}
+
+.contact-us-container {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-info {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.location-name,
+.phone-number,
+.mail-id {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+  gap: 20px;
+}
+
+.location-name i,
+.phone-number i,
+.mail-id i {
+  font-size: 2rem;
+  color: #333;
+}
+
+.location-name span,
+.phone-number span,
+.mail-id span {
+  font-size: 0.9rem;
+}
+
+.line-2 {
+  height: 0.5px;
+  width: 100%;
+  background-color: #807e7e8b;
+}
+
+.phone-number span {
+  font-weight: 500;
+}
+
+.mail-id span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contact-us-form {
+  width: 70%;
+}
+
+.contact-us-form h3 {
+  font-weight: bold;
+}
+
+.line-3 {
+  height: 3px;
+  width: 10%;
+  background-color: #e33d26;
+}
+
+.contact-us-form p {
+  color: #777;
+  padding: 30px 0px;
+}
+
+.filed-contact input,
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 7px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.filed-contact input::placeholder,
+textarea::placeholder {
+  font-size: 0.9rem;
+}
+
+.submit-btn input {
+  width: 20%;
+  border: none;
+  background-color: #e33d26;
+  color: #fff;
+  height: 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit-btn input:hover {
+  background-color: #333;
+}
+
+.map {
+  margin-bottom: -55px;
 }
