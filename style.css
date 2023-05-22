@@ -585,7 +585,7 @@ footer {
   color: #e7412a;
 }
 
-.copyright-text {
+.copyright-text p {
   font-size: 0.9rem;
   color: #797979;
   text-align: center;
@@ -838,4 +838,16 @@ p {
 .complaint-form h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+/* office consumable */
+
+.office-consumable {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.office-consumable .channel-partner-product-image img {
+  width: 200px;
+  height: 200px;
 }
