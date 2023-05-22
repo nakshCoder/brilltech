@@ -81,6 +81,8 @@ header {
 
 .logo-image img {
   background-color: var(--white);
+  width: 200px;
+  height: 69px;
 }
 
 .company-info {
@@ -464,6 +466,10 @@ header {
   color: var(--white);
 }
 
+.our-mission-box p {
+  color: white;
+}
+
 .our-mission-btn {
   font-size: 1rem;
 }
@@ -607,6 +613,7 @@ footer {
   flex-direction: column;
   margin: 60px auto;
   padding: 10px 0px;
+  user-select: none;
 }
 
 .comtact-us-heading h2 {
@@ -615,6 +622,7 @@ footer {
 
 .contact-us-heading p {
   font-size: larger;
+  color: white;
 }
 
 .contact-us-container {
@@ -720,4 +728,114 @@ textarea::placeholder {
 
 .map {
   margin-bottom: -55px;
+}
+
+/* ================= man power page ================== */
+
+.man-power {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.man-power-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.man-power-content h2,
+h5 {
+  margin-bottom: 0px;
+}
+
+.man-power-content ul,
+p {
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #4c4c4c;
+  text-align: justify;
+}
+
+.man-power-content ul {
+  margin-left: 40px;
+}
+
+/* channel partner */
+
+.channel-partner {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.channel-partner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.channel-partner-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.channel-partner-product-box {
+  box-shadow: 0px 0px 12px #97979792;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.channel-partner-product-box:hover {
+  transform: scale(1.05);
+}
+
+.channel-partner-product-image {
+  width: 100%;
+  text-align: center;
+}
+
+.channel-partner-product-image img {
+  object-fit: contain;
+}
+
+.channel-partner-product-content ul li {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.channel-partner-product-content ul li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.channel-partner-product-heading {
+  font-size: large;
+}
+
+/* ================== company profile ============== */
+
+.company-profile {
+  width: 90%;
+  margin: 30px auto;
+  background-image: url(image/parallax-01.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ============ Complaint Form ================= */
+
+.complaint-form {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.complaint-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
